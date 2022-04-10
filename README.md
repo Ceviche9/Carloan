@@ -1,6 +1,6 @@
 <div align="center">
   <h1>
-    Carloan
+     Rentx
   </h1>
 </div>
 
