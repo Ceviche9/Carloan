@@ -1,4 +1,8 @@
-# Carloan - API
+<div align="center">
+  <h1>
+    Carloan
+  </h1>
+</div>
 
 [![typescript](https://img.shields.io/badge/typescript-4.3.5-3178c6?style=flat-square&logo=typescript)](https://www.typescriptlang.org/)
 [![postgres](https://img.shields.io/badge/postgres-8.6.0-326690?style=flat-square&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
