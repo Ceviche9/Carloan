@@ -122,4 +122,8 @@ $ npm run test
 > You should not be able to register a new rental if there is already one open for the same user.
 > It should not be possible to enter a new rental if one already exists for the same car.
 
+## 📝 License
+
+This project was a challenge for a full stack developer position and is under the MIT license. See the file [LICENSE](LICENSE.md) for more details.
+
 ---
