@@ -1,6 +1,6 @@
 <div align="center">
   <h1>
-     Rentx
+     Rentalcars
   </h1>
 </div>
 
