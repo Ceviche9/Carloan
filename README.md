@@ -74,57 +74,57 @@ $ npm run test
 
 **RF** => Functional Requirements
 
-> It must be possible to register a new car.
+> - It must be possible to register a new car.
 
 **RN** => Business Rules
 
-> It must not be possible to register a car with an already registered license plate.
-> The car must be registered as available for rent by default.
-> Only admin user can register a new car.
+> - It must not be possible to register a car with an already registered license plate.
+> - The car must be registered as available for rent by default.
+> - Only admin user can register a new car.
 
 ## Car Listing
 
 **RF** => Functional requirements
-> It must be possible to list all available cars.
-> It must be possible to list all available cars by category name.
-> It must be possible to list all available cars by brand name.
-> It must be possible to list all available cars by car name.
+> - It must be possible to list all available cars.
+> - It must be possible to list all available cars by category name.
+> - It must be possible to list all available cars by brand name.
+> - It must be possible to list all available cars by car name.
 
 **RN** => Business rules
-> The user does not need to be logged in.
+> - The user does not need to be logged in.
 
 ## Car Specification Entry 
 
 **RF** => Functional requirements
-> It should be possible to register a specification for a car.
+> - It should be possible to register a specification for a car.
 
 **RN** => Business Rules
 > - It should not be possible to register a specification for a car that has not been registered.
-> It should not be possible to register an existing specification for the same car.
-> Only administrator user can add a specification.
+> - It should not be possible to register an existing specification for the same car.
+> - Only administrator user can add a specification.
 
 ## Registering a car image
 
 **RF** => Functional Requirements
-> It must be possible to register the car's image.
+> - It must be possible to register the car's image.
 
 **RNF** => Non-functional requirements
 > - Use Multer to upload the files.
 
 **RN** => Business Rules
-> Only admin user can upload an image to the car.
+> - Only admin user can upload an image to the car.
 > - User must be able to register more than one image for the same car.
 
 ## Car Rental
 
 **RF** => Functional requirements
-> It must be possible to register a rental.
+> - It must be possible to register a rental.
 
 **RN** => Business Rules
-> The user must be logged into the application.
-> The rental must have a minimum duration of 24 hours.
-> You should not be able to register a new rental if there is already one open for the same user.
-> It should not be possible to enter a new rental if one already exists for the same car.
+> - The user must be logged into the application.
+> - The rental must have a minimum duration of 24 hours.
+> - You should not be able to register a new rental if there is already one open for the same user.
+> - It should not be possible to enter a new rental if one already exists for the same car.
 
 ## 📝 License
 
